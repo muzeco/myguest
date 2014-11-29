@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(methodOverride());
 
 // # 3
-//routes = require('./routes/guest')(app);
+routes = require('./routes/guest')(app);
 
 // # 2
 mongoose.connect('mongodb://localhost/guest', function(err, res) {
@@ -28,7 +28,7 @@ app.listen(8000);
 console.log('나 8000 포트에서 돌아간다!');
 
 app.get('/', function(req, res){
-	res.send("hello kim!");
+	res.send("hello kimzz!");
 });
 
 app.get('/test', function(req, res){
