@@ -4,5 +4,6 @@ myguest
 I know the node.js
 ------------------
 
-*node js
-*mongoDB
+* node js
+* mongoDB
+* angularjs
